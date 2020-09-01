@@ -1,4 +1,4 @@
-math_marks_A = {}
+math_marks_A = []
 for line in open("student_record.txt"):
   fields = line.split(";")
   region_code = fields[0]
