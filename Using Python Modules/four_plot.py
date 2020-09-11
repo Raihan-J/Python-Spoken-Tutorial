@@ -1,8 +1,8 @@
-from numpy import *
-from matplotlib.pyplot import *
-from numpy import linspace, pi, sin
-from matplotlib.pyplot import plot, legend, annotate
-from matplotlib.pyplot import xlim, ylim, title, show
+#from numpy import *
+#from matplotlib.pyplot import *
+#from numpy import linspace, pi, sin
+#from matplotlib.pyplot import plot, legend, annotate
+#from matplotlib.pyplot import xlim, ylim, title, show
 x=linspace(-5*pi, 5*pi, 500)
 plot(x, x, 'b')
 plot(x, -x, 'b')
